@@ -2,7 +2,6 @@
 <html lang = "en">
     <head>
         <meta charset="UTF-8">
-        <meta name = "viewport" content = "width-device width, initial-scale = 1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
         <link href="/pages/reset.css" rel="stylesheet" type="text/css">
         <title>PetStory Online</title>
@@ -15,7 +14,7 @@
             <div class="header-wrapper wrapper">
 
                 <div class="header-logo">
-                    <a href="\" class="header-logo-link">
+                    <a href="#main-page" class="header-logo-link">
                         <img src="/assets/images/logo_header.png" alt="PetStory Online Logo" class="logo-image">
                     </a>
                 </div>
@@ -23,26 +22,26 @@
                 <nav class="header-nav">
                     <ul class="header-list">
                         <li class="header-item">
-                            <a href="#!" class="header-link ">About</a>
+                            <a href="#" class="header-link orange">About</a>
                         </li>
                         <li class="header-item">
-                            <a href="#!" class="header-link">Map</a>
+                            <a href="#" class="header-link">Map</a>
                         </li>
                         <li class="header-item">
-                            <a href="#!" class="header-link">Zoos</a>
+                            <a href="#" class="header-link">Zoos</a>
                         </li>
                         <li class="header-item">
-                            <a href="#!" class="header-link">Donate</a>
+                            <a href="/pages/donate/index.html" class="header-link">Donate</a>
                         </li>
                         <li class="header-item">
-                            <a href="#!" class="header-link">Contact us</a>
+                            <a href="#" class="header-link">Contact us</a>
                         </li>
                     </ul>                    
                 </nav>
                 <nav class="header-last">
                     <ul>
                         <li class="header-item last">
-                            <a href="#!" class="header-link">Designed by ©</a>
+                            <a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks" target="_blank" class="header-link">Designed by ©</a>
                         </li>
                     </ul>
                 </nav>
@@ -50,7 +49,7 @@
             </div>  
         </header>
         <main>
-            <section class="intro">
+            <section class="intro"  id="main">
                 <div class="wrapper overlay">
                     <div class="ellipse"></div>
                     <div class="title"> 
@@ -58,7 +57,7 @@
                     </div>
                 </div>
                 <div class = "wrapper button-main">
-                    <button type="button" class="main-button">
+                    <button type="button" class="main-button interactive">
                         Watch Online
                     </button>
                 </div>
@@ -93,8 +92,9 @@
 
             <section class="animals">
                 <div class="scroll-left-right">
-                    <button type="button" class="circle-button">
-                    </button>
+                    <div class="circle-button">
+                            <img src="/assets/icons/left.png" class="arrow-set">
+                    </div>
                     <div class=" wrapper animal-container">
                         <div class="grid-item">
                             
@@ -184,10 +184,11 @@
                         </div>
 
                     </div>
-                    <button class="circle-button">
-                    </button>
+                    <div class="circle-button">
+                        <img src="/assets/icons/right.png" class="arrow-set">
+                    </div>
                 </div>
-                <button class="choose-btn">Choose your favourite</button>
+                <button class="choose-btn interactive">Choose your favourite</button>
             </section>
 
             <section class="pick-and-feed">
@@ -205,7 +206,7 @@
                             </p>
                             <p class="pick-descr">
                                 Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. 
-                                Please consider a gift to our <span class="underline">Emergency Support Fund</span> . 
+                                Please consider a gift to our <a href="/pages/donate/index.html" class="underline">Emergency Support Fund</a> . 
                             </p>
                     </div>
                     <div class="schema">
@@ -241,7 +242,7 @@
                             
                         </div>
                         <div class="button">
-                            <button class="feed-animal">feed a friend now</button>
+                            <button class="feed-animal interactive">feed a friend now</button>
                         </div>
                     </div>
                     
@@ -340,7 +341,7 @@
                         </div>
                     </div>
                     <div class="test-button">
-                        <button class="feedback-button">Leave Feedback</button>
+                        <button class="feedback-button interactive">Leave Feedback</button>
                     </div>
                 </div>
             </section>
@@ -349,12 +350,14 @@
                     <div class="footer-flex">
                         <div class="footer-item">
                             <div class="footer-logo">
-                                <a href="\" class="footer-logo-link">
+                                <a href="#main" class="footer-logo-link">
                                     <img src="/assets/images/logo_header.png" alt="PetStory Online Logo" class="logo-image">
                                 </a>
                             </div>
                             <div class="footer-button">
-                                <button class="donate-button">Donate for volunteers</button>
+                                <a href="/pages/donate/index.html" target="_blank">
+                                    <button href="/pages/donate/index.html" class="donate-button interactive">Donate for volunteers</button>
+                                </a>
                             </div>
                             <div class="footer-contacts">
                                 <ul class="footer-list">
@@ -399,8 +402,9 @@
                                     <button type="submit" class="submit-button">Submit</button>
                                 </form>
                             </div>
-                            <div class="figma-author">
-
+                            <div class="credits">
+                                <p class="figma-author">Designed by Alisa Samborskaya</p>
+                                <p class="rs-school">©RSSchool & ©Yem Digital 2021</p>
                             </div>
                         </div>
                     </div>

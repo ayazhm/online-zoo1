@@ -64,6 +64,9 @@ body{
 .header-link:active, .header-link:hover, .header-link:focus{
     color: #F9804B; 
 }
+.orange{
+    color: #F9804B;
+}
 
 /*Section intro styles start*/
 
@@ -71,8 +74,6 @@ body{
     height: 780px;
     background: url(/assets/images/panda.png) no-repeat center;
     background-size: cover;
-    margin-bottom: 140px;
-
 }
 
 h2.introduction{
@@ -133,20 +134,26 @@ h2.introduction{
     position: absolute;
     
 }
-.main-button:hover{
+.interactive:hover{
     background: #E47209;
 }
 
-.main-button:active{
+.interactive:active{
     background: #4B9200;
 }
-.main-button:disabled{
+.interactive:disabled{
     background: #767474;;
 }
 
 
 /*Section2*/
 
+.backstage{
+    background: url(/assets/images/flower_foto1.png) no-repeat right;
+    background-size: 180px 650px;
+    padding-top: 140px;
+    padding-bottom: 180px;
+}
 .back-image{
     width: 609px;
     height: 403px;
@@ -157,6 +164,7 @@ h2.introduction{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 .title-article{
     font-family: 'Roboto';
@@ -210,10 +218,6 @@ h4{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.backstage{
-    margin-bottom: 180px;
-}
-
 
 /* section animals*/
 
@@ -224,6 +228,8 @@ h4{
     border-radius: 50%;
     border-width: 0;
     cursor: pointer;
+    text-align: center;
+
 }
 .circle-button:active{
     background: #4B9200;
@@ -260,6 +266,11 @@ h4{
     margin-bottom: 8px;
 }
 
+.grid-item:hover{
+    transform:scale(1.07);
+    background-color:#BDBDBD;
+}
+
 .grid-item{
     border-radius: 5px;
     border: solid;
@@ -270,6 +281,11 @@ h4{
 .type-name{
     margin-bottom: 2px;
     text-align:left
+}
+.arrow-set{
+    height: 8px;
+    width: 16px;
+    margin-top: 27px;
 }
 
 .native-to{
@@ -409,6 +425,7 @@ p.pick-paragr{
 .underline{
     text-decoration-line: underline;
     text-decoration-color: #FE9013;
+    color:#333B41;
 }
 
 .schema-title{
@@ -513,7 +530,7 @@ p.step-description{
     color: #333B41;
     text-align: center;
     margin-bottom: 47px;
-    margin-top: 140px;
+
 }
 
 .test-flex{
@@ -525,7 +542,12 @@ p.step-description{
 .testimonials{
     display: flex;
     flex-wrap: wrap;
+    background: url(/assets/images/leav_foto.png) no-repeat bottom right;
+    background-size: 234px;
+    padding-bottom: 180px;
+    padding-top: 140px;
 }
+
 .name{
     font-family: 'Roboto';
     font-style: normal;
@@ -571,7 +593,7 @@ p.step-description{
     border-radius: 20px;
     border: solid;
     border-width: 2px;
-    border-color: yellow; 
+    border-color:  rgba(243, 169, 248, 0.66) ;
     margin-right: 29px;
 }
 
@@ -604,9 +626,11 @@ p.step-description{
     height: 8px;
     background: #F5F7F6;
     border-radius: 5px;
-    border: solid;
-    border-color: yellow;
     margin-bottom: 31px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-color:  rgba(243, 169, 248, 0.66) ;
 }
 .progress-front{
     background: #FE9013;
@@ -637,7 +661,7 @@ p.step-description{
     text-transform: uppercase;
 
     color: #FFFFFF;
-    margin-bottom: 180px;
+
 }
 
 /*footer*/
@@ -748,6 +772,15 @@ footer{
     height: 42px;
     border-radius: 2px;
     box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+}
+.email-input:active{
+    border-color: #4B9200;
 }
 
 .submit-button{
@@ -757,16 +790,41 @@ footer{
     font-size: 16px;
     line-height: 140%;
 
-    color: #4B9200;
+    color: #000;
     background: #F1F3F2;
 
-    border: 1px solid #4B9200;
+    border: 1px solid #333B41;
     border-radius: 5px;
     margin-left: 10px;
 }
 
+.submit-button:active{
+    color: #4B9200;
+    border: 1px solid #4B9200;
+}
+
 .span-last{
     margin: 0;
+}
+.figma-author, .rs-school{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+
+
+color: #FFFFFF;
+}
+
+.footer-item:last-child{
+    max-width: 380px;
+}
+
+.credits{
+    margin-top: auto;
+    margin-left: auto;
 }
 
 
