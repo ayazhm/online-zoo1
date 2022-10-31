@@ -2,7 +2,6 @@
 <html lang = "en">
     <head>
         <meta charset="UTF-8">
-        <meta name = "viewport" content = "width-device width, initial-scale = 1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
         <link href="/pages/reset.css" rel="stylesheet" type="text/css">
         <title>PetStory Online</title>
@@ -15,7 +14,7 @@
             <div class="header-wrapper wrapper">
 
                 <div class="header-logo">
-                    <a href="\" class="header-logo-link">
+                    <a href="#main-page" class="header-logo-link">
                         <img src="/assets/images/logo_header.png" alt="PetStory Online Logo" class="logo-image">
                     </a>
                 </div>
@@ -23,26 +22,26 @@
                 <nav class="header-nav">
                     <ul class="header-list">
                         <li class="header-item">
-                            <a href="#!" class="header-link ">About</a>
+                            <a href="#" class="header-link orange">About</a>
                         </li>
                         <li class="header-item">
-                            <a href="#!" class="header-link">Map</a>
+                            <a href="#" class="header-link">Map</a>
                         </li>
                         <li class="header-item">
-                            <a href="#!" class="header-link">Zoos</a>
+                            <a href="#" class="header-link">Zoos</a>
                         </li>
                         <li class="header-item">
-                            <a href="#!" class="header-link">Donate</a>
+                            <a href="/pages/donate/index.html" class="header-link">Donate</a>
                         </li>
                         <li class="header-item">
-                            <a href="#!" class="header-link">Contact us</a>
+                            <a href="#" class="header-link">Contact us</a>
                         </li>
                     </ul>                    
                 </nav>
                 <nav class="header-last">
                     <ul>
                         <li class="header-item last">
-                            <a href="#!" class="header-link">Designed by ©</a>
+                            <a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks" target="_blank" class="header-link">Designed by ©</a>
                         </li>
                     </ul>
                 </nav>
@@ -50,7 +49,7 @@
             </div>  
         </header>
         <main>
-            <section class="intro">
+            <section class="intro"  id="main">
                 <div class="wrapper overlay">
                     <div class="ellipse"></div>
                     <div class="title"> 
@@ -58,30 +57,29 @@
                     </div>
                 </div>
                 <div class = "wrapper button-main">
-                    <button type="button" class="intro-button">
+                    <button type="button" class="main-button interactive">
                         Watch Online
                     </button>
                 </div>
             </section>
-            <section class="backstage">
-                <div>
-                    
-                </div>
+            <section class="backstage">    
                 <div class="wrapper backstage-block">
+                    
                     <div class="grandpa-image">
                         <img src="/assets/images/bamboo-cap.png" alt="bamboo-cap" class="back-image">
                     </div>
+
                     <div class="description">
                         <h2 class="title-article">
                             The Backstage of the Wilderness World.
                         </h2>
-                        <p>
+                        <p class="founded">
                             The site was founded on the basis of a volunteer movement to protect and care for animals.
                         </p>
                         <h4>
                             How it works 
                         </h4>
-                        <p>
+                        <p class="last">
                             The main goal is to help the animals, 
                             as well as the nature reserves and zoos where they are kept. 
                             We are currently working on video projects targeting pandas in China, 
@@ -90,11 +88,328 @@
                         </p>
                     </div>
                 </div>
-                <div class="flower-image">
-                    <img src="/assets/images/flower_foto1.png" alt="flowers" class="flowers">
-                </div>
-
             </section>
+
+            <section class="animals">
+                <div class="scroll-left-right">
+                    <div class="circle-button">
+                            <img src="/assets/icons/left.png" class="arrow-set">
+                    </div>
+                    <div class=" wrapper animal-container">
+                        <div class="grid-item">
+                            
+                            <div class="animal-image">
+                                <img src="/assets/images/pandas.png" alt="Giant Panda image" class="animal-image">
+                            </div>
+                            <div class="about-animal">
+                                <div class="animal-name">
+                                    <h5 class="type-name"><a href="#" class="name-link">Giant Pandas</a></h5>
+                                    <p class="native-to">Native to Southwest China</p>
+                                </div>
+                                <div class="animal-logo">
+                                    <img src="/assets/icons/banana-bamboo_icon.png" alt="banana-bamboo icon" class="meal-banana">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="grid-item">
+                            <div class="animal-image">
+                                <img src="/assets/images/eagle.png" alt="Eagle image" class="animal-image">
+                            </div>
+                            <div class="about-animal">
+                                <div class="animal-name">
+                                    <h5 class="type-name"><a href="#" class="name-link">Eagles</a></h5>
+                                    <p class="native-to">Native to South America</p>
+                                </div>
+                                <div class="animal-logo">
+                                    <img src="/assets/icons//meat-fish_icon.png" alt="meat-fish icon" class="meal-fish">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="animal-image">
+                                <img src="/assets/images/gorilla.png" alt="Gorillas image" class="animal-image">
+                            </div>
+                            <div class="about-animal">
+                                <div class="animal-name">
+                                    <h5 class="type-name"><a href="#" class="name-link">Gowillas</a></h5>
+                                    <p class="native-to">Native to Congo</p>
+                                </div>
+                                <div class="animal-logo">
+                                    <img src="/assets/icons/banana-bamboo_icon.png" alt="banana-bamboo icon" class="meal-banana">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="animal-image">
+                                <img src="/assets/images/sloth.png" alt="Sloth image" class="animal-image">
+                            </div>
+                            <div class="about-animal">
+                                <div class="animal-name">
+                                    <h5 class="type-name"><a href="#" class="name-link">Two-toed Sloth</a></h5>
+                                    <p class="native-to">Mesoamerica, South America</p>
+                                </div>
+                                <div class="animal-logo">
+                                    <img src="/assets/icons/banana-bamboo_icon.png" alt="banana-bamboo icon" class="meal-banana">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="animal-image">
+                                <img src="/assets/images/tiger.png" alt="Cheetah image" class="animal-image">
+                            </div>
+                            <div class="about-animal">
+                                <div class="animal-name">
+                                    <h5 class="type-name"><a href="#" class="name-link">cheetahs</a></h5>
+                                    <p class="native-to">Native to Africa</p>
+                                </div>
+                                <div class="animal-logo">
+                                    <img src="/assets/icons/meat-fish_icon.png" alt="meat-fish icon" class="meal-fish">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="animal-image">
+                                <img src="/assets/images/pinguin.png" alt="pinguin image" class="animal-image">
+                            </div>
+                            <div class="about-animal">
+                                <div class="animal-name">
+                                    <h5 class="type-name"><a href="#" class="name-link">Penguins</a></h5>
+                                    <p class="native-to">Native to Antarctica</p>
+                                </div>
+                                <div class="animal-logo">
+                                    <img src="/assets/icons/meat-fish_icon.png" alt="banana-bamboo icon" class="meal-fish">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="circle-button">
+                        <img src="/assets/icons/right.png" class="arrow-set">
+                    </div>
+                </div>
+                <button class="choose-btn interactive">Choose your favourite</button>
+            </section>
+
+            <section class="pick-and-feed">
+                <div class="wrapper color">
+                    <div class="main-box">
+                        <h2 class="pick-title">Pick and feed animal</h2>
+                        <div class="information">
+                            <h4 class="pick-subtitle">
+                                We know the animals bring you joy, 
+                                and in these extraordinary times, we’re glad.
+                            </h4>
+                            <p class = "pick-paragr">
+                                During a time when the COVID-19 epidemic is touching all of our lives, 
+                                we’re proud and glad that people around the world find joy in PetStory.
+                            </p>
+                            <p class="pick-descr">
+                                Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. 
+                                Please consider a gift to our <a href="/pages/donate/index.html" class="underline">Emergency Support Fund</a> . 
+                            </p>
+                    </div>
+                    <div class="schema">
+                        <div>
+                            <h3  class="schema-title">How it Works?</h3>
+                        </div>
+                        <div class="schema-flex">
+                            <div class="step">
+                                <div class="step-image">
+                                    <img src="/assets/icons/pay.png" alt="payment icon" class="payment-icon">
+                                </div>
+                                <p class="step-description">Pay with card</p>
+                            </div>
+                            <div class="arrow-block">
+                                <img src="/assets/icons/Vector.png" alt="arrow forward" class="arrow">
+                            </div>
+                            <div class="step">
+                                <div class="step-image">
+                                    <img src="/assets/icons/zoo.png" alt="tree icon" class="tree-icon">
+                                </div>
+                                <p class="step-description">Payment goes to the zoo</p>
+                            </div>
+                            <div class="arrow-block">
+                                <img src="/assets/icons/Vector.png" alt="arrow forward" class="arrow">
+                            </div>
+                            <div class="step">
+                                <div class="step-image">
+                                    <img src="/assets/icons/monkey.png" alt="monkey icon" class="monkey-icon">
+                                </div>
+                                <p class="step-description">Your favourite animal gets delicious dish</p>
+                            </div>
+                            </div>
+                            
+                        </div>
+                        <div class="button">
+                            <button class="feed-animal interactive">feed a friend now</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+            </section>
+            <section class="testimonials">
+                <div class="wrapper">
+                    <div class="test-align">
+                        <h3 class="test-title">Testimonials</h3>
+                    </div>
+                    <div class="test-block">
+                        <div class="test-flex">
+                            <div class="test-item">
+                                <div class="test-item-block">
+                                    <div class="person">
+                                        <img src="/assets/images/user1.png" alt="user avatar" class="avatar">
+                                        <div class="author">
+                                            <p class="name">Michael John</p>
+                                            <p class="country">Local Austria <span class="dot">• </span><span class="activity">Today</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="comment-style">
+                                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. 
+                                            Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                                            <br>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+    
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="test-item">
+                                <div class="test-item-block">
+                                    <div class="person">
+                                        <img src="/assets/images/user4.png" alt="user avatar" class="avatar">
+                                        <div class="author">
+                                            <p class="name">Oskar Samborsky</p>
+                                            <p class="country">Local Austria <span class="dot">• </span><span class="activity">Today</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="comment-style">
+                                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. 
+                                            Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                                            <br>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+    
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="test-item">
+                                <div class="test-item-block">
+                                    <div class="person">
+                                        <img src="/assets/images/user3.png" alt="user avatar" class="avatar">
+                                        <div class="author">
+                                            <p class="name">Fredericka Michelin</p>
+                                            <p class="country">Local Austria <span class="dot">• </span><span class="activity">Today</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="comment-style">
+                                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. 
+                                            Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                                            <br>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+    
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="test-item">
+                                <div class="test-item-block">
+                                    <div class="person">
+                                        <img src="/assets/images/user2.png" alt="user avatar" class="avatar">
+                                        <div class="author">
+                                            <p class="name">Mila Riksha</p>
+                                            <p class="country">Local Austria <span class="dot">• </span><span class="activity">Today</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="comment-style">
+                                            The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. 
+                                            Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.
+                                            <br>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas.
+    
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-back">
+                                <div class="progress-front" style="width:25%"></div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="test-button">
+                        <button class="feedback-button interactive">Leave Feedback</button>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="wrapper footer-display">
+                    <div class="footer-flex">
+                        <div class="footer-item">
+                            <div class="footer-logo">
+                                <a href="#main" class="footer-logo-link">
+                                    <img src="/assets/images/logo_header.png" alt="PetStory Online Logo" class="logo-image">
+                                </a>
+                            </div>
+                            <div class="footer-button">
+                                <a href="/pages/donate/index.html" target="_blank">
+                                    <button href="/pages/donate/index.html" class="donate-button interactive">Donate for volunteers</button>
+                                </a>
+                            </div>
+                            <div class="footer-contacts">
+                                <ul class="footer-list">
+                                    <li>
+                                        <a href="#" class="no-style"><img src="/assets/icons/Group 2.png" alt="facebook icon" class="media-icon"><span class="list-item">Facebook</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="no-style"><img src="/assets/icons/Group 1.png" alt="twitter icon" class="media-icon"><span class="list-item">Twitter</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="no-style"><img src="/assets/icons/Group 3.png" alt="Instagram icon" class="media-icon"><span class="list-item">Instagram</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="no-style"><img src="/assets/icons/Group 4.png" alt="Youtube icon" class="media-icon"><span class="list-item">Youtube</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-item">
+                            <nav class="footer-nav">
+                                    <ul class="footer-nav-list">
+                                        <li class="nav-item">
+                                            <a href="#!" class="header-link ">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#!" class="header-link">Map</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#!" class="header-link">Zoos</a>
+                                        </li>
+                                        <li class="nav-item span-last">
+                                            <a href="#!" class="header-link">Contact us</a>
+                                        </li>
+                                    </ul>                    
+                                </nav>
+                        </div>
+                        <div class="footer-item">
+                            <div class="subscribe-form">
+                                <form class="footer-form">
+                                    <h4 class="form-subtitle">Subscribe to our news</h4>
+                                    <input type="email" class="email-input" placeholder="Enter your email">
+                                    <button type="submit" class="submit-button">Submit</button>
+                                </form>
+                            </div>
+                            <div class="credits">
+                                <p class="figma-author">Designed by Alisa Samborskaya</p>
+                                <p class="rs-school">©RSSchool & ©Yem Digital 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </main>
     </body>
 </html>
