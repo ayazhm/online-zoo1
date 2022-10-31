@@ -10,6 +10,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    position: absolute;
 }
 
 .logo-image{
@@ -46,12 +47,11 @@ body{
     margin-right: 58px; 
 }
 
-#default{
-    color: #F9804B; 
-}
-
 .header-last{
     margin-left: auto;
+}
+.last{
+    margin-right: 0;
 }
 
 .header-link{
@@ -63,4 +63,147 @@ body{
     font-family: Roboto;
     font-size: 16px;
 }
+.header-link:active, .header-link:hover, .header-link:focus{
+    color: #F9804B; 
+}
+
+/*Section intro styles start*/
+
+.intro{
+    height: 780px;
+    background: url(/assets/images/panda.png) no-repeat center;
+    background-size: cover;
+
+}
+
+h2.introduction{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 80px;
+    /* or 80px */
+
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    max-width: 500.31px;
+    height: 400px;
+    color:#FFFFFF
+}
+.title{
+    margin-top: 166px;
+    position: absolute;
+    margin-left: 660px;
+}
+
+
+.toyellow{
+    color: #FFEE2E;
+}
+
+.ellipse{
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    margin-top: 92px;
+    margin-left: 587px;
+    position: absolute;
+}
+
+.overlay{
+    position: relative;
+}
+.intro-button{
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border-width: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 626px;
+    margin-left: 763px;
+    position:absolute;
+    
+}
+.intro-button:hover{
+    background: #E47209;
+}
+
+.intro-button:active{
+    background: #4B9200;
+}
+.intro-button:disabled{
+    background: #767474;;
+}
+
+
+/*Section2*/
+
+.back-image{
+    width: 609px;
+    height: 403px;
+    backdrop-filter: blur(2px);
+}
+
+.backstage-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-top: 140px;
+    margin-bottom: 180px;
+
+
+}
+.title-article{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+    color: #333B41;
+    max-width: 465px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    color: #333B41;
+    max-width: 465px;
+    margin-bottom: 54px;
+}
+h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    color: #333B41;
+}
+
+.flowers{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
 
